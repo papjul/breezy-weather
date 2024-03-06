@@ -151,7 +151,7 @@ object Notifications {
     ): NotificationCompat.Builder {
         return context.notificationBuilder(CHANNEL_ALERT).apply {
             setSmallIcon(iconId)
-            setLargeIcon(BitmapFactory.decodeResource(context.resources, R.drawable.ic_launcher))
+            setLargeIcon(BitmapFactory.decodeResource(context.resources, R.mipmap.ic_launcher))
             setContentTitle(title)
             setSubText(subtitle)
             setContentText(content)

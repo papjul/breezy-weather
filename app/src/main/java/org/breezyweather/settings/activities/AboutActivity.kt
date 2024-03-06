@@ -408,7 +408,7 @@ class AboutActivity : GeoActivity() {
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
             Image(
-                painter = painterResource(R.drawable.ic_launcher_round),
+                painter = painterResource(R.mipmap.ic_launcher_round),
                 contentDescription = null,
                 modifier = Modifier.size(72.dp),
             )
